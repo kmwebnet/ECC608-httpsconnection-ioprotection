@@ -1,6 +1,6 @@
 # ECC608-httpsconnection-ioprotection
 
-This issues "GET" request to https server and get a responce with IO protection for ECDH premaster secret transmission, which is provided by ATECC608 capability.
+This issues "GET" request to https server and get a responce with IO protection for ECDH premaster secret transmission, which is provided by ATECC608A capability.
 
 # Requirements
 
@@ -39,7 +39,7 @@ status = atca_connect("" , "", &cfg);
       I2C 1 SDA GPIO_NUM_21
       I2C 1 SCL GPIO_NUM_22
           
-  Microchip ATECC608(on I2C port 1)
+  Microchip ATECC608A(on I2C port 1)
 
 # Usage
 
